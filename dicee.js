@@ -1,7 +1,4 @@
-/*function myFunction(){
-  document.images[0].src = "images\\dice2.png";
-  document.images[1].src = "images\\dice6.png";
-}*/
+
 function myFunction(){
   var randNoPlayer1 = Math.floor (Math.random() * 6);
   var randNoPlayer2 = Math.floor (Math.random() * 6);
@@ -25,36 +22,36 @@ function myFunction(){
 
 function selectTheDiceeForPlayer1(number){
   switch(number){
-    case 1:document.images[0].src = "images\\dice1.png";
+    case 1:document.images[0].src = "dice1.png";
     break;
-    case 2:document.images[0].src = "images\\dice2.png";
+    case 2:document.images[0].src = "dice2.png";
     break;
-    case 3:document.images[0].src = "images\\dice3.png";
+    case 3:document.images[0].src = "dice3.png";
     break;
-    case 4:document.images[0].src = "images\\dice4.png";
+    case 4:document.images[0].src = "dice4.png";
     break;
-    case 5:document.images[0].src = "images\\dice5.png";
+    case 5:document.images[0].src = "dice5.png";
     break;
-    case 6:document.images[0].src= "images\\dice6.png";
+    case 6:document.images[0].src= "dice6.png";
     break;
-    default:document.images[0].src = "images\\dice3.png";
+    default:document.images[0].src = "dice3.png";
   }
 }
 
 function selectTheDiceeForPlayer2(number){
   switch(number){
-    case 1:document.images[1].src = "images\\dice1.png";
+    case 1:document.images[1].src = "dice1.png";
     break;
-    case 2:document.images[1].src = "images\\dice2.png";
+    case 2:document.images[1].src = "dice2.png";
     break;
-    case 3:document.images[1].src = "images\\dice3.png";
+    case 3:document.images[1].src = "dice3.png";
     break;
-    case 4:document.images[1].src = "images\\dice4.png";
+    case 4:document.images[1].src = "dice4.png";
     break;
-    case 5:document.images[1].src = "images\\dice5.png";
+    case 5:document.images[1].src = "dice5.png";
     break;
-    case 6:document.images[1].src = "images\\dice6.png";
+    case 6:document.images[1].src = "dice6.png";
     break;
-    default:document.images[1].src = "images\\dice3.png";
+    default:document.images[1].src = "dice3.png";
   }
 }
