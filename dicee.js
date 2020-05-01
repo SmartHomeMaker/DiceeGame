@@ -7,13 +7,13 @@ function myFunction(){
   selectTheDiceeForPlayer2(randNoPlayer2);
 
   if (randNoPlayer1 > randNoPlayer2){
-    var message = "Sashwati Won the Match!";
+    var message = "✌ Sashwati Won the Match!";
   }
   else if(randNoPlayer2 > randNoPlayer1){
-    var message = "Prashasta Won the Match!";
+    var message = "✌Prashasta Won the Match!";
   }
   else{
-    var message = "Match tally!";
+    var message = "😇Match tally!";
   }
 
   document.querySelector("h1").innerHTML = message;
