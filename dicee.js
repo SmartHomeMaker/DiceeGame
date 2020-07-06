@@ -1,7 +1,7 @@
 
 function myFunction(){
-  var randNoPlayer1 = Math.floor (Math.random() * 6);
-  var randNoPlayer2 = Math.floor (Math.random() * 6);
+  var randNoPlayer1 = Math.floor (Math.random() * 7);
+  var randNoPlayer2 = Math.floor (Math.random() * 7);
 
   selectTheDiceeForPlayer1(randNoPlayer1);
   selectTheDiceeForPlayer2(randNoPlayer2);
