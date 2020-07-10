@@ -2,11 +2,22 @@
 let message, count1 = 0, count2 = 0, count=0;
 
 function resetGame(){
-  message = "Come Back to Play again!!!" ;
+  if (count1 > count2){
+    message = "Sashwati is Winner" + "Come Back to Play again!!!" ;
+  }
+  else{
+    message = "Prashasta is Winner" + "Come Back to Play again!!!" ;
+  }
   count1 = 0;
   count2 = 0;
   count=0;
   document.getElementById("message").innerHTML = message;
+  document.getElementById("total-round").innerHTML = count;
+  document.getElementById("total-score-sashwati").innerHTML = count1;
+  document.getElementById("total-score-prashasta").innerHTML = count2;
+  document.images[0].src = "";
+  document.images[1].src = "";
+  
 }
 function myFunction(){
   count++;
@@ -20,13 +31,13 @@ function myFunction(){
   selectTheDiceeForPlayer2(randNoPlayer2);
 
   if (randNoPlayer1 > randNoPlayer2){
-    message = "💪Sashwati Won the Match! ";
+    message = "💪Sashwati Won this " + count + " Round! " ;
   }
   else if(randNoPlayer2 > randNoPlayer1){
-    message = "💪Prashasta Won the Match!";
+    message = "💪Prashasta Won this " + count + " Round! " ;
   }
   else{
-    message = "😇Match tally!";
+    message = "😇Match tally in this "+ count + " Round! " ;
   }
 
   document.getElementById("message").innerHTML = message;
