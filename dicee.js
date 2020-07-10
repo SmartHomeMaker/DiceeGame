@@ -37,13 +37,13 @@ function myFunction(){
   selectTheDiceeForPlayer2(randNoPlayer2);
 
   if (randNoPlayer1 > randNoPlayer2){
-    message = "💪Sashwati Won this " + count + " Round! " ;
+    message = "💪Sashwati Won this Round! " ;
   }
   else if(randNoPlayer2 > randNoPlayer1){
-    message = "💪Prashasta Won this " + count + " Round! " ;
+    message = "💪Prashasta Won this Round! " ;
   }
   else{
-    message = "😇Match tally in this "+ count + " Round! " ;
+    message = "😇Match tally in this Round! " ;
   }
 
   document.getElementById("message").innerHTML = message;
