@@ -23,7 +23,13 @@ function myFunction(){
   count++;
   let randNoPlayer1 = Math.floor (Math.random() * 7);
   let randNoPlayer2 = Math.floor (Math.random() * 7);
-
+  
+  if (randNoPlayer1 === 0){
+    randNoPlayer1 = 1;
+  }
+  if (randNoPlayer2 === 0){
+    randNoPlayer2 = 1;
+  }
   count1= count1 + randNoPlayer1 ;
   count2= count2 + randNoPlayer2 ;
 
