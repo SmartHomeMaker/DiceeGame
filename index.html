@@ -1,34 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
-  </head>
-  <body onload="myFunction();");">
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 
-    <div class="container">
-      <h1>Refresh Me</h1>
+</head>
 
-      <div class="dice">
-        <p>Sashwati</p>
+<body>
 
-        <img class="img1" src="dice3.png">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-4 message">
+        <h1>Score Sashwati</h1>
+        <div id="total-score-sashwati">
+
+        </div>
+      </div>
+      <div class="col-lg-4 message">
+        <h1>Round</h1>
+        <div id="total-round">
+
+        </div>
       </div>
 
-      <div class="dice">
-        <p>prashasta</p>
-        <img class="img2" src="dice3.png">
+      <div class="col-lg-4 message">
+        <h1>Score Prashasta</h1>
+        <div id="total-score-prashasta">
+
+        </div>
       </div>
 
     </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="message">
+
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <div>
+          <img class="img1" src="images\dice3.png">
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div>
+            <img class="img2" src="images\dice3.png">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg btn-block beautiful-button" type="button" onclick="myFunction()">Play Game</h1>
+      </div>
+      <div class="col-lg-3">
+        <button class="btn btn-lg btn-block beautiful-button" type="button" onclick="resetGame()">End Game</h1>
+      </div>
+      <div class="col-lg-3">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <footer>
+          www 🎲 SmartHomeMaker 🎲 com
+        </footer>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+  </div>
   <script src="dicee.js" charset="utf-8"></script>
+</body>
 
-  </body>
-
-  <footer>
-    www 🎲 SmartHomeMaker 🎲 com
-  </footer>
 </html>

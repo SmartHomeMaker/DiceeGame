@@ -1,41 +1,89 @@
-.container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-}
-
-.dice {
-  text-align: center;
-  display: inline-block;
-
-}
-
 body {
   background-color: #393E46;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family: 'Lobster', cursive;
 }
 
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
+  margin: 10px;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  font-size: 1.5rem;
+  color: white;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: white;
   font-family: 'Indie Flower', cursive;
 }
 
 img {
-  width: 80%;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.dice1 {
+  display: inline-block;
+  position:absolute;
+  left:400px;
+  bottom:200px;
+}
+
+.dice2 {
+  display: inline-block;
+  position:absolute;
+  right:400px;
+  bottom:200px;
+}
+#message{
+  text-align: center;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-family: monospace;
+  color: white;
+}
+#total-score-sashwati{
+  text-align: center;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-family: monospace;
+  color: #d92027;
+}
+#total-score-prashasta{
+  text-align: center;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-family: monospace;
+  color: #d92027;
+}
+
+#total-round{
+  text-align: center;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  font-family: monospace;
+  color: #d92027;
+}
+
+.beautiful-button{
+  background-color: white;
+  color:#d92027;
+  font-size:2rem;
+  margin-bottom: 50px;
+}
+
+.button-start-position{
+  left:500px;
+}
+.button-end-position{
+  left:700px;
 }
 
 footer {
-  margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
